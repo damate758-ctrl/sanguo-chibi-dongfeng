@@ -122,6 +122,13 @@
 
 工程按「表现层 → 流程层 → 规则层 → 数据层」四层组织，依赖方向单一，规则层不引用任何 DOM API。
 
+<p align="center">
+  <img src="docs/diagrams/architecture.png" alt="四层系统架构：表现层、流程层、规则层、数据层" width="1400">
+</p>
+
+<details>
+<summary>查看 Mermaid 源码</summary>
+
 ```mermaid
 flowchart LR
   subgraph P["表现层"]
@@ -169,7 +176,16 @@ flowchart LR
   U --> C
 ```
 
+</details>
+
 ### 一次战斗回合的时序
+
+<p align="center">
+  <img src="docs/diagrams/battle-loop.png" alt="一次战斗回合的时序：视图收集指令、规则结算、事件流回放" width="1400">
+</p>
+
+<details>
+<summary>查看 Mermaid 源码</summary>
 
 ```mermaid
 sequenceDiagram
@@ -187,6 +203,8 @@ sequenceDiagram
   V->>V: 逐条 await 演出（出招、受击、飘字、死亡）
   R-->>V: over / winner
 ```
+
+</details>
 
 **关键约束：** `battle/view.js` 只读取状态和事件，不修改 HP、伤害或命中率；`rules/battle.js` 不创建 DOM、不播放音频、不读取画面尺寸。这个边界让规则可以在无浏览器环境下回归，也让表现层可以独立替换。
 
