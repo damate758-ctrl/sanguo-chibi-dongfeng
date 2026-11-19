@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1600" viewBox="0 0 2400 1600">
+<defs>
+  <filter id="bghuarongInk"><feTurbulence type="fractalNoise" baseFrequency=".012 .07" numOctaves="3" seed="7"/><feDisplacementMap in="SourceGraphic" scale="10"/></filter>
+  <filter id="bghuarongGrain"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="2" seed="12"/><feColorMatrix values="0 0 0 0 0.12 0 0 0 0 0.08 0 0 0 0 0.05 0 0 0 .12 0"/></filter>
+  <linearGradient id="bghuarongSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#101a25"/><stop offset=".5" stop-color="#314653"/><stop offset="1" stop-color="#6f6252"/></linearGradient>
+  <radialGradient id="bghuarongMoon" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#fff8dc"/><stop offset=".55" stop-color="#ead8a7"/><stop offset="1" stop-color="#e9d5a0" stop-opacity="0"/></radialGradient>
+  <linearGradient id="bghuarongWater" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#172d36"/><stop offset=".6" stop-color="#0c1c23"/><stop offset="1" stop-color="#071015"/></linearGradient>
+  <linearGradient id="bghuarongFire" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffce62"/><stop offset=".45" stop-color="#db512a"/><stop offset="1" stop-color="#7d130f" stop-opacity="0"/></linearGradient>
+  <linearGradient id="bghuarongLand" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#676253"/><stop offset=".5" stop-color="#3d443d"/><stop offset="1" stop-color="#1e2928"/></linearGradient></defs>
+    <rect width="2400" height="1600" fill="url(#bghuarongSky)"/>
+    <g opacity=".8">
+  <g opacity="0.9" filter="url(#bghuarongInk)">
+    <path d="M-80 300L160 90l160 150 130-220 200 240 150-160 170 180 170-110 240 120 240-160 250 130v560H-80z" fill="#202d32"/>
+    <path d="M-30 330L250 150l150 160 100-110 170 130 190-70 150 130 180-80 210 100 200-60 210 120v450H-30z" fill="#202d32" opacity=".55"/>
+  </g></g>
+    
+  <g opacity="0.95" filter="url(#bghuarongInk)">
+    <path d="M-80 420L160 210l160 150 130-220 200 240 150-160 170 180 170-110 240 120 240-160 250 130v560H-80z" fill="#283530"/>
+    <path d="M-30 450L250 270l150 160 100-110 170 130 190-70 150 130 180-80 210 100 200-60 210 120v450H-30z" fill="#283530" opacity=".55"/>
+  </g>
+        <rect x="0" y="340" width="2400" height="1260" fill="url(#bghuarongLand)"/>
+        <path d="M0 380c310 70 513 44 752-44 253-93 445-83 676 11 238 97 462 96 700 12 103-37 193-40 272-16v470c-241-78-488-70-721 5-254 81-492 63-696-14-220-83-440-70-653 7-126 46-244 47-330 7z" fill="#3f4638"/>
+        <path d="M870 1600c-39-186 51-297 120-397 77-112 104-198 25-286-49-55-22-113 74-158 131-61 304-42 435 46 92 62 113 132 49 207-93 108-76 214-5 319 74 111 92 218 34 301z" fill="#8b7b59"/>
+        <path d="M935 1600c-22-169 56-289 117-375 64-91 89-173 15-247-52-54-23-99 62-138 105-49 245-31 344 40 70 50 84 105 40 166-84 99-67 193 4 291 61 83 76 177 33 263z" fill="#b5a57b"/>
+        <path d="M996 1600c-4-152 64-267 117-346 55-82 68-158 8-215-40-38-15-80 52-106 82-31 176-15 243 41 42 36 48 76 17 118-69 91-50 181 18 272 52 69 63 146 34 236z" fill="#2e332a"/>
+        <g fill="#27302a">
+          <path d="M75 650l-28-206 31 9 44 201z"/><path d="M217 680l-20-246 34 14 26 247z"/><path d="M347 710l-8-191 26 9 19 197z"/><path d="M2070 650l25-245 37 5-15 254z"/><path d="M2214 690l12-208 33-7 4 228z"/><path d="M2327 730l20-176 27 4-6 190z"/>
+        </g>
+        <g opacity=".32" stroke="#d6caa6" stroke-width="2"><path d="M0 1200c192-55 396-53 578 6 249 81 444 58 671-12 249-77 454-59 688 21 157 52 303 53 463 5M0 1280c201-48 397-40 590 14 244 68 454 47 680-20 248-73 456-45 695 27 158 47 293 46 435 6M0 1370c197-42 391-30 590 19 235 57 441 38 662-23 254-70 453-36 690 34 155 46 306 44 458 0"/></g>
+        <g transform="translate(1885 890)"><ellipse rx="170" cy="18" ry="24" fill="#0b0d0d" opacity=".5"/><path d="M-130 0c22-71 78-107 159-104 76 3 128 39 145 104z" fill="#161b1b"/><path d="M-100-3c32-46 82-67 137-62 57 5 99 30 118 62z" fill="#303332"/><path d="M-161-28c30-9 64-11 101-3M10-34l-48 31M60-44l-8 30" stroke="#6a4b2f" stroke-width="6"/></g>
+        <g transform="translate(1130 1170)" opacity=".8"><path d="M-100 28c74-21 157-17 230 4 47-15 91-12 132 3" stroke="#d0c19b" stroke-width="4" fill="none"/><path d="M-46 0l12-59M25 4l4-68M94 5l-2-57" stroke="#9e3f31" stroke-width="4"/></g>
+        <g fill="#d8cda9" opacity=".55"><path d="M1210 540c35 14 58 39 69 76-34-11-54-36-69-76z"/><path d="M1490 670c30 8 51 28 61 57-29-6-50-25-61-57z"/><path d="M920 830c24 7 42 24 52 49-26-4-44-21-52-49z"/></g>
+    <rect width="2400" height="1600" filter="url(#bghuarongGrain)" opacity=".8"/>
+    <g opacity=".34" fill="none" stroke="#d8c49a" stroke-width="1">
+      <path d="M0 80c228 34 434 30 661-8M1780 60c201 24 381 19 620-11M0 1480c276-37 520-31 784 4M1630 1500c247-31 482-26 770 8"/>
+    </g>
+    <rect x="28" y="28" width="2344" height="1544" rx="3" fill="none" stroke="#d0b57c" stroke-width="2" opacity=".22"/>
+  </svg>

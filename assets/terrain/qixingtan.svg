@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1600" viewBox="0 0 2400 1600">
+<defs>
+  <filter id="mapqixingtanInk"><feTurbulence type="fractalNoise" baseFrequency=".012 .07" numOctaves="3" seed="7"/><feDisplacementMap in="SourceGraphic" scale="10"/></filter>
+  <filter id="mapqixingtanGrain"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="2" seed="12"/><feColorMatrix values="0 0 0 0 0.12 0 0 0 0 0.08 0 0 0 0 0.05 0 0 0 .12 0"/></filter>
+  <linearGradient id="mapqixingtanSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#101a25"/><stop offset=".5" stop-color="#314653"/><stop offset="1" stop-color="#6f6252"/></linearGradient>
+  <radialGradient id="mapqixingtanMoon" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#fff8dc"/><stop offset=".55" stop-color="#ead8a7"/><stop offset="1" stop-color="#e9d5a0" stop-opacity="0"/></radialGradient>
+  <linearGradient id="mapqixingtanWater" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#172d36"/><stop offset=".6" stop-color="#0c1c23"/><stop offset="1" stop-color="#071015"/></linearGradient>
+  <linearGradient id="mapqixingtanFire" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffce62"/><stop offset=".45" stop-color="#db512a"/><stop offset="1" stop-color="#7d130f" stop-opacity="0"/></linearGradient>
+  <linearGradient id="mapqixingtanLand" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#676253"/><stop offset=".5" stop-color="#3d443d"/><stop offset="1" stop-color="#1e2928"/></linearGradient></defs>
+    <rect width="2400" height="1600" fill="#13232c"/>
+    
+        <path d="M0 580c315-42 578-18 847 17 314 41 551 30 861-18 282-44 470-30 692 12v1009H0z" fill="#142730"/>
+        <path d="M0 730c216-31 432-24 636 11 290 50 534 34 795-15 293-55 509-28 730 16 95 19 173 20 239 8v204c-184 20-351 4-538-27-287-49-522-35-799 25-281 61-518 53-754 12-118-20-216-20-309-2z" fill="#233d42"/>
+        <path d="M600 1270c160-138 319-178 489-95 137 66 269 65 454-10 151 65 270 81 398 29 93-39 184-29 249 17l210 87v302H550z" fill="#4b5144"/>
+        <path d="M486 1438l420-428 494 426-81 164H562z" fill="#2b3029"/>
+        <path d="M525 1418l381-368 412 369-58 111H578z" fill="#676652"/>
+        <g transform="translate(1120 1120)">
+          <ellipse rx="318" cy="145" ry="89" fill="#0e1519" opacity=".55"/>
+          <path d="M-290 85l278-222 286 218-28 62-542 4z" fill="#43483f"/>
+          <path d="M-251 64l238-181 249 177-38 40-462 3z" fill="#827b62"/>
+          <path d="M-188 43l174-130 180 128-239 7z" fill="#9f9474"/>
+          <path d="M-156 34l142-98 149 98" fill="none" stroke="#d0b881" stroke-width="5"/>
+          <path d="M-75 12h145v131H-75z" fill="#5a452f"/><path d="M-100 5l83-70 95 70z" fill="#2c271e"/>
+          <path d="M-44 36h90v103h-90z" fill="#c8b180" opacity=".45"/><path d="M-44 36l46 35 44-35" stroke="#7f633d" stroke-width="3" fill="none"/>
+          <g fill="#e6c06d"><circle cx="-232" cy="-33" r="7"/><circle cx="-169" cy="-18" r="5"/><circle cx="-108" cy="-9" r="4"/><circle cx="236" cy="-23" r="6"/><circle cx="288" cy="-53" r="8"/></g>
+          <path d="M-290 85l278-222 286 218-28 62-542 4z" fill="none" stroke="#b59c62" stroke-width="3"/>
+        </g>
+        <g transform="translate(1185 770)">
+          <path d="M-500 210c120-136 252-181 399-136 123 38 231 33 342-16 121-53 227-43 341 30" fill="none" stroke="#6f8782" stroke-width="14" opacity=".35"/>
+          <path d="M-330 140c82-92 172-112 268-61 98 52 194 39 292-17 82-47 159-37 226 19" fill="none" stroke="#9fae9f" stroke-width="4" opacity=".25"/>
+        </g>
+        <g fill="#f1d795" opacity=".58"><circle cx="290" cy="260" r="3"/><circle cx="570" cy="330" r="2"/><circle cx="1830" cy="240" r="3"/><circle cx="2180" cy="380" r="2.5"/><circle cx="760" cy="450" r="2"/><circle cx="1620" cy="430" r="2"/></g>
+        <path d="M900 1520c114-50 236-56 364-18 108-33 217-29 330 15" fill="none" stroke="#d5c392" stroke-width="4" opacity=".4"/>
+        <g fill="#5f7c63" opacity=".65"><path d="M150 970c55-80 121-86 184-21 48 50 49 116-2 164-56 53-139 40-183-23-23-33-20-80 1-120z"/><path d="M2080 930c61-82 135-82 194-7 42 54 36 120-17 164-56 47-138 28-175-37-19-34-20-80-2-120z"/></g>
+    <rect width="2400" height="1600" fill="url(#mapqixingtanSky)" opacity=".12"/>
+    <rect width="2400" height="1600" filter="url(#mapqixingtanGrain)" opacity=".85"/>
+    <rect x="24" y="24" width="2352" height="1552" fill="none" stroke="#d8c28e" stroke-width="2" opacity=".2"/>
+  </svg>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1600" viewBox="0 0 2400 1600">
+<defs>
+  <filter id="mapsanjiangkouInk"><feTurbulence type="fractalNoise" baseFrequency=".012 .07" numOctaves="3" seed="7"/><feDisplacementMap in="SourceGraphic" scale="10"/></filter>
+  <filter id="mapsanjiangkouGrain"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="2" seed="12"/><feColorMatrix values="0 0 0 0 0.12 0 0 0 0 0.08 0 0 0 0 0.05 0 0 0 .12 0"/></filter>
+  <linearGradient id="mapsanjiangkouSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#101a25"/><stop offset=".5" stop-color="#314653"/><stop offset="1" stop-color="#6f6252"/></linearGradient>
+  <radialGradient id="mapsanjiangkouMoon" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#fff8dc"/><stop offset=".55" stop-color="#ead8a7"/><stop offset="1" stop-color="#e9d5a0" stop-opacity="0"/></radialGradient>
+  <linearGradient id="mapsanjiangkouWater" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#172d36"/><stop offset=".6" stop-color="#0c1c23"/><stop offset="1" stop-color="#071015"/></linearGradient>
+  <linearGradient id="mapsanjiangkouFire" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffce62"/><stop offset=".45" stop-color="#db512a"/><stop offset="1" stop-color="#7d130f" stop-opacity="0"/></linearGradient>
+  <linearGradient id="mapsanjiangkouLand" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#676253"/><stop offset=".5" stop-color="#3d443d"/><stop offset="1" stop-color="#1e2928"/></linearGradient></defs>
+    <rect width="2400" height="1600" fill="#7d8676"/>
+    
+        <path d="M0 420c415 58 679 4 978 12 359 11 594 76 918 35 213-28 363-22 504 9v494c-219-26-416-14-616 28-330 69-591 58-887 20-281-37-516-24-897 35z" fill="#213d42"/>
+        <path d="M0 586c192-37 374-33 570 6 207 41 389 45 621 10 262-39 465-19 699 26 184 37 351 27 510-1v143c-180 14-345 2-527-24-261-38-471-29-707 21-278 59-544 48-806 2-150-27-279-26-360 4z" fill="#365d62"/>
+        <g stroke="#8baeac" stroke-width="2.4" fill="none" opacity=".4"><path d="M0 760c186-22 356-7 523 18 231 34 424 24 657-17 249-44 479-25 703 20 129 25 239 20 357 0M0 900c205-24 406-5 598 20 253 32 455 14 692-26 262-43 487-19 710 21 121 20 228 17 340-2M0 1050c209-18 395 1 585 22 256 29 469 6 705-31 252-40 482-10 700 24 116 18 226 15 330-4"/></g>
+        <path d="M130 720c220-31 451-33 669-7 99 12 183 9 276-8" fill="none" stroke="#c1a46b" stroke-width="14" opacity=".35"/>
+        <g>
+          <path d="M200 430l330-76 226 101-26 134-474 17z" fill="#4f543e"/>
+          <path d="M213 428l282-61 191 84-19 71-410 15z" fill="#6c674f"/>
+          <path d="M345 430l93-120 147 113-40 83-174 15z" fill="#30362e"/>
+          <path d="M470 512l168 15 28-113-126-65-85 77z" fill="#443b2c"/>
+          <path d="M574 463l93-24 33 66-107 45z" fill="#9a8155"/>
+          <path d="M620 490v86M574 535h155" stroke="#5a442d" stroke-width="6"/>
+          <g fill="#a34130"><path d="M397 492l44-35 28 26-41 38z"/><path d="M702 441l41-32 29 28-40 38z"/></g>
+          <g fill="#c1a56e"><circle cx="641" cy="401" r="8"/><circle cx="672" cy="426" r="6"/><circle cx="315" cy="458" r="7"/></g>
+        </g>
+        <g transform="translate(1610 620)">
+          <path d="M-260 160l282-233 280 220-27 88-508 9z" fill="#383d32"/>
+          <path d="M-227 136l249-185 238 175-28 42-434 8z" fill="#7b7252"/>
+          <path d="M-118 22h124v135h-124z" fill="#c6ac76"/><path d="M-150 15l91-70 104 70z" fill="#3a3125"/>
+          <path d="M-86 54h94v100h-94z" fill="#3d3122" opacity=".45"/><path d="M-86 54l47 49 47-49" stroke="#7a5b36" stroke-width="3" fill="none"/>
+          <path d="M-260 160l31 102 468-4 43-109z" fill="#56533f"/>
+        </g>
+        <g transform="translate(1950 1050)">
+          <path d="M-220 100l220-170 226 164-33 80-394 4z" fill="#45432f"/>
+          <path d="M-180 80l188-132 182 128-30 42-315 1z" fill="#6d6247"/>
+          <path d="M-70 32h100v77H-70z" fill="#b89e6e"/><path d="M-91 24l69-54 78 54z" fill="#342b21"/>
+          <path d="M-220 100l23 68 369-2 26-71z" fill="#4c4c38"/>
+        </g>
+        <g opacity=".6"><path d="M1350 310c27-49 76-68 126-43 43 22 61 70 39 118-18 40-59 62-106 47-47-15-76-73-59-122z" fill="#5d724c"/><path d="M1391 335c22-31 54-37 84-17-38 1-65 20-84 58-9-15-11-29 0-41z" fill="#8f9d72"/></g>
+        <g fill="#d8bf84" opacity=".6"><circle cx="246" cy="622" r="5"/><circle cx="680" cy="672" r="4"/><circle cx="1030" cy="780" r="5"/><circle cx="1415" cy="724" r="4"/><circle cx="2010" cy="802" r="5"/></g>
+    <rect width="2400" height="1600" fill="url(#mapsanjiangkouSky)" opacity=".12"/>
+    <rect width="2400" height="1600" filter="url(#mapsanjiangkouGrain)" opacity=".85"/>
+    <rect x="24" y="24" width="2352" height="1552" fill="none" stroke="#d8c28e" stroke-width="2" opacity=".2"/>
+  </svg>

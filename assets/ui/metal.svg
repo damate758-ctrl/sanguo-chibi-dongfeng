@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+<defs>
+  <linearGradient id="metalFill" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff2cf"/><stop offset=".5" stop-color="#d7b16d"/><stop offset="1" stop-color="#7d5222"/></linearGradient>
+  <linearGradient id="metalRed" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ef755a"/><stop offset="1" stop-color="#b8453d"/></linearGradient>
+  <filter id="metalDs"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#1b0c05" flood-opacity=".45"/></filter></defs><g filter="url(#metalDs)"><path d="M12 46l20-35 20 35-20 9z" fill="url(#metalFill)" stroke="#6e5327" stroke-width="2"/><path d="M32 16l8 31-8 4-8-4z" fill="#e8dfc7" opacity=".65"/><path d="M10 55h44" stroke="#b8453d" stroke-width="3"/></g></svg>

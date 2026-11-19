@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1600" viewBox="0 0 2400 1600">
+<defs>
+  <filter id="bgqixingtanInk"><feTurbulence type="fractalNoise" baseFrequency=".012 .07" numOctaves="3" seed="7"/><feDisplacementMap in="SourceGraphic" scale="10"/></filter>
+  <filter id="bgqixingtanGrain"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="2" seed="12"/><feColorMatrix values="0 0 0 0 0.12 0 0 0 0 0.08 0 0 0 0 0.05 0 0 0 .12 0"/></filter>
+  <linearGradient id="bgqixingtanSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#101a25"/><stop offset=".5" stop-color="#314653"/><stop offset="1" stop-color="#6f6252"/></linearGradient>
+  <radialGradient id="bgqixingtanMoon" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#fff8dc"/><stop offset=".55" stop-color="#ead8a7"/><stop offset="1" stop-color="#e9d5a0" stop-opacity="0"/></radialGradient>
+  <linearGradient id="bgqixingtanWater" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#172d36"/><stop offset=".6" stop-color="#0c1c23"/><stop offset="1" stop-color="#071015"/></linearGradient>
+  <linearGradient id="bgqixingtanFire" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffce62"/><stop offset=".45" stop-color="#db512a"/><stop offset="1" stop-color="#7d130f" stop-opacity="0"/></linearGradient>
+  <linearGradient id="bgqixingtanLand" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#676253"/><stop offset=".5" stop-color="#3d443d"/><stop offset="1" stop-color="#1e2928"/></linearGradient></defs>
+    <rect width="2400" height="1600" fill="url(#bgqixingtanSky)"/>
+    <g opacity=".8">
+  <g opacity="0.9" filter="url(#bgqixingtanInk)">
+    <path d="M-80 900L160 690l160 150 130-220 200 240 150-160 170 180 170-110 240 120 240-160 250 130v560H-80z" fill="#202d32"/>
+    <path d="M-30 930L250 750l150 160 100-110 170 130 190-70 150 130 180-80 210 100 200-60 210 120v450H-30z" fill="#202d32" opacity=".55"/>
+  </g></g>
+    
+  <g opacity="0.95" filter="url(#bgqixingtanInk)">
+    <path d="M-80 600L160 390l160 150 130-220 200 240 150-160 170 180 170-110 240 120 240-160 250 130v560H-80z" fill="#1d2a35"/>
+    <path d="M-30 630L250 450l150 160 100-110 170 130 190-70 150 130 180-80 210 100 200-60 210 120v450H-30z" fill="#1d2a35" opacity=".55"/>
+  </g>
+        <rect x="0" y="600" width="2400" height="1000" fill="url(#bgqixingtanWater)"/>
+        <g opacity=".35" fill="#f3e9bf"><circle cx="410" cy="180" r="2"/><circle cx="820" cy="260" r="3"/><circle cx="1210" cy="120" r="2"/><circle cx="1640" cy="260" r="2.5"/><circle cx="2090" cy="140" r="2"/><circle cx="2260" cy="310" r="3"/><circle cx="620" cy="410" r="1.6"/><circle cx="1850" cy="450" r="1.8"/></g>
+        <g transform="translate(1870 330)"><circle r="170" fill="url(#bgqixingtanMoon)" opacity=".42"/><circle r="90" fill="#e9deb6" opacity=".95"/><path d="M-70-40c49-23 103-17 137 20M-62 32c45 21 98 14 135-17" stroke="#b7a879" stroke-width="3" fill="none" opacity=".4"/></g>
+        <path d="M560 1330c160-138 319-178 489-95 137 66 269 65 454-10 151 65 270 81 398 29 93-39 184-29 249 17l508 207v122H500z" fill="url(#bgqixingtanLand)"/>
+        <g transform="translate(1210 1000)">
+          <ellipse cx="0" cy="154" rx="390" ry="104" fill="#0c1116" opacity=".6"/>
+          <path d="M-330 106l320-218 345 215-29 74-629 8z" fill="#37403b"/>
+          <path d="M-300 72l290-178 312 179-41 41-555 4z" fill="#6c6955"/>
+          <path d="M-250 55l242-130 249 131-345 10z" fill="#8e856a"/>
+          <path d="M-238 48l236-105 238 105" fill="none" stroke="#c9b47b" stroke-width="6"/>
+          <path d="M-330 106l320-218 345 215" fill="none" stroke="#d3ba7c" stroke-width="4" opacity=".48"/>
+          <path d="M-112 20h232v151h-232z" fill="#58452f"/>
+          <path d="M-138 12l126-88 143 88z" fill="#2b251d"/>
+          <path d="M-84 49h174v120H-84z" fill="#d6c28e" opacity=".5"/>
+          <path d="M-84 49l86 58 88-58M-84 169l88-67 86 67" fill="none" stroke="#8b7145" stroke-width="3"/>
+          <circle cx="-37" cy="95" r="25" fill="#6fae9c"/><path d="M-50 104c6-28 21-37 31-11" fill="#d8f6d8" opacity=".7"/>
+          <circle cx="75" cy="115" r="19" fill="#b04734"/><path d="M58 117c13-18 30-19 37 2" fill="#ffd075" opacity=".8"/>
+          <path d="M-350 154l430-262 480 262" fill="none" stroke="#ceb276" stroke-width="4" opacity=".25"/>
+          <path d="M-260 140c19-70 21-134 11-197M-190 135c14-59 13-111 0-160M-120 125c8-45 5-85-3-119M190 132c-12-49-11-91 4-125M260 137c-19-57-21-106-4-144" stroke="#252d2c" stroke-width="6"/>
+          <g fill="#e8c270"><circle cx="-210" cy="-87" r="8"/><circle cx="-141" cy="-49" r="6"/><circle cx="-72" cy="-21" r="5"/><circle cx="232" cy="-30" r="6"/><circle cx="303" cy="-75" r="8"/><circle cx="-251" cy="-43" r="4"/></g>
+          <path d="M-330 106l320-218 345 215-29 74-629 8z" fill="none" stroke="#a58a52" stroke-width="3"/>
+        </g>
+        <g transform="translate(1210 1405)" opacity=".9"><path d="M-330-20c102-37 197-38 295-2 94-18 173-16 247 7 85-19 164-12 245 20v75H-330z" fill="#253032"/><path d="M-280 22c83-22 165-18 245 9M-30 28c85-11 169-7 249 7" stroke="#70898a" stroke-width="3" fill="none" opacity=".5"/></g>
+    <rect width="2400" height="1600" filter="url(#bgqixingtanGrain)" opacity=".8"/>
+    <g opacity=".34" fill="none" stroke="#d8c49a" stroke-width="1">
+      <path d="M0 80c228 34 434 30 661-8M1780 60c201 24 381 19 620-11M0 1480c276-37 520-31 784 4M1630 1500c247-31 482-26 770 8"/>
+    </g>
+    <rect x="28" y="28" width="2344" height="1544" rx="3" fill="none" stroke="#d0b57c" stroke-width="2" opacity=".22"/>
+  </svg>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1600" viewBox="0 0 2400 1600">
+<defs>
+  <filter id="bgtitleInk"><feTurbulence type="fractalNoise" baseFrequency=".012 .07" numOctaves="3" seed="7"/><feDisplacementMap in="SourceGraphic" scale="10"/></filter>
+  <filter id="bgtitleGrain"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="2" seed="12"/><feColorMatrix values="0 0 0 0 0.12 0 0 0 0 0.08 0 0 0 0 0.05 0 0 0 .12 0"/></filter>
+  <linearGradient id="bgtitleSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#101a25"/><stop offset=".5" stop-color="#314653"/><stop offset="1" stop-color="#6f6252"/></linearGradient>
+  <radialGradient id="bgtitleMoon" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#fff8dc"/><stop offset=".55" stop-color="#ead8a7"/><stop offset="1" stop-color="#e9d5a0" stop-opacity="0"/></radialGradient>
+  <linearGradient id="bgtitleWater" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#172d36"/><stop offset=".6" stop-color="#0c1c23"/><stop offset="1" stop-color="#071015"/></linearGradient>
+  <linearGradient id="bgtitleFire" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffce62"/><stop offset=".45" stop-color="#db512a"/><stop offset="1" stop-color="#7d130f" stop-opacity="0"/></linearGradient>
+  <linearGradient id="bgtitleLand" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#676253"/><stop offset=".5" stop-color="#3d443d"/><stop offset="1" stop-color="#1e2928"/></linearGradient></defs>
+    <rect width="2400" height="1600" fill="url(#bgtitleSky)"/>
+    <g opacity=".8">
+  <g opacity="0.9" filter="url(#bgtitleInk)">
+    <path d="M-80 900L160 690l160 150 130-220 200 240 150-160 170 180 170-110 240 120 240-160 250 130v560H-80z" fill="#202d32"/>
+    <path d="M-30 930L250 750l150 160 100-110 170 130 190-70 150 130 180-80 210 100 200-60 210 120v450H-30z" fill="#202d32" opacity=".55"/>
+  </g></g>
+    
+  <g opacity="1" filter="url(#bgtitleInk)">
+    <path d="M-80 770L160 560l160 150 130-220 200 240 150-160 170 180 170-110 240 120 240-160 250 130v560H-80z" fill="#17242c"/>
+    <path d="M-30 800L250 620l150 160 100-110 170 130 190-70 150 130 180-80 210 100 200-60 210 120v450H-30z" fill="#17242c" opacity=".55"/>
+  </g>
+        
+  <g transform="translate(1560 1010) scale(1.05)">
+    <path d="M-170 35c28 50 70 65 142 65 54 0 105-18 155-57l-25-11H-150z" fill="#171b1d"/>
+    <path d="M-157 1h274l-11 42H-145z" fill="#392b22"/>
+    <path d="M-142 43h250l-6 15H-135z" fill="#7b5736" opacity=".65"/>
+    <path d="M-5-226v237" stroke="#3b2b1f" stroke-width="11"/>
+    <path d="M0-210c63 33 86 76 105 134C58-94 27-102 0-89z" fill="#d7d0bc" opacity=".82"/>
+    <path d="M0-208c-54 35-78 78-94 132 43-34 69-42 94-30z" fill="#c6c0ae" opacity=".65"/>
+    <path d="M5-218l54 17-54 20z" fill="#63232b"/>
+    <path d="M-160 27h298" stroke="#c3985b" stroke-width="3" opacity=".55"/>
+  </g>
+  <g transform="translate(1830 1055) scale(0.78)">
+    <path d="M-170 35c28 50 70 65 142 65 54 0 105-18 155-57l-25-11H-150z" fill="#171b1d"/>
+    <path d="M-157 1h274l-11 42H-145z" fill="#392b22"/>
+    <path d="M-142 43h250l-6 15H-135z" fill="#7b5736" opacity=".65"/>
+    <path d="M-5-226v237" stroke="#3b2b1f" stroke-width="11"/>
+    <path d="M0-210c63 33 86 76 105 134C58-94 27-102 0-89z" fill="#d7d0bc" opacity=".82"/>
+    <path d="M0-208c-54 35-78 78-94 132 43-34 69-42 94-30z" fill="#c6c0ae" opacity=".65"/>
+    <path d="M5-218l54 17-54 20z" fill="#63232b"/>
+    <path d="M-160 27h298" stroke="#c3985b" stroke-width="3" opacity=".55"/>
+  </g>
+  <g transform="translate(1290 1060) scale(0.62)">
+    <path d="M-170 35c28 50 70 65 142 65 54 0 105-18 155-57l-25-11H-150z" fill="#171b1d"/>
+    <path d="M-157 1h274l-11 42H-145z" fill="#392b22"/>
+    <path d="M-142 43h250l-6 15H-135z" fill="#7b5736" opacity=".65"/>
+    <path d="M-5-226v237" stroke="#3b2b1f" stroke-width="11"/>
+    <path d="M0-210c63 33 86 76 105 134C58-94 27-102 0-89z" fill="#d7d0bc" opacity=".82"/>
+    <path d="M0-208c-54 35-78 78-94 132 43-34 69-42 94-30z" fill="#c6c0ae" opacity=".65"/>
+    <path d="M5-218l54 17-54 20z" fill="#63232b"/>
+    <path d="M-160 27h298" stroke="#c3985b" stroke-width="3" opacity=".55"/>
+  </g>
+        <path d="M0 1120c220-45 440-65 670-38 343 40 585 17 885-22 236-31 480-18 845 46v494H0z" fill="url(#bgtitleWater)"/>
+        <g opacity=".42" stroke="#78959d" stroke-width="2" fill="none">
+          <path d="M20 1240c150-22 280-13 410 16M330 1310c210-27 380-17 560 18M970 1250c170-25 310-14 470 13M1390 1350c230-25 420-12 620 20M1830 1220c170-16 330-5 500 21"/>
+          <path d="M110 1190c120-16 210-9 310 11M760 1180c130-18 250-11 370 9M1530 1160c120-13 240-8 360 9M2090 1188c95-11 180-5 270 8"/>
+        </g>
+        <g transform="translate(760 1000)"><ellipse cx="0" cy="0" rx="158" ry="23" fill="#0a0e11" opacity=".5"/><path d="M-135 0c35 49 201 49 260-2l-29-13H-113z" fill="#111718"/><path d="M-112-5h226l-8 20H-102z" fill="#35271d"/><path d="M10-174v161" stroke="#3a291c" stroke-width="9"/><path d="M7-172c45 27 60 60 67 104-31-28-48-34-67-23z" fill="#d8cfbb" opacity=".8"/><path d="M-126 2h250" stroke="#c29b61" stroke-width="2" opacity=".55"/></g>
+        <g transform="translate(236 1020)" opacity=".95"><ellipse cx="0" cy="0" rx="96" ry="20" fill="#0b0e10" opacity=".4"/><path d="M-30 4c-2-104 12-153 41-176 29 38 39 95 33 175z" fill="#111619"/><path d="M-28-129c9-41 40-61 78-38 25 15 29 43 12 66-12 17-11 34 3 57-25 2-51-14-66-40-8-14-14-28-27-45z" fill="#181d20"/><path d="M46-97c33-10 59-25 77-45-6 35-27 60-65 77z" fill="#2c1517"/></g>
+        <g transform="translate(2010 350)"><circle r="112" fill="url(#bgtitleMoon)" opacity=".42"/><circle r="62" fill="#e8d9b2" opacity=".9"/><path d="M-43-21c28-17 60-15 85 4M-46 22c35 13 68 9 94-8" stroke="#bda873" stroke-width="3" fill="none" opacity=".35"/></g>
+        <g opacity=".5" fill="#ffb54e"><circle cx="1200" cy="970" r="3"/><circle cx="1260" cy="930" r="2"/><circle cx="1320" cy="990" r="2.5"/><circle cx="1370" cy="960" r="2"/><circle cx="1440" cy="1010" r="3"/><circle cx="1500" cy="980" r="2"/></g>
+    <rect width="2400" height="1600" filter="url(#bgtitleGrain)" opacity=".8"/>
+    <g opacity=".34" fill="none" stroke="#d8c49a" stroke-width="1">
+      <path d="M0 80c228 34 434 30 661-8M1780 60c201 24 381 19 620-11M0 1480c276-37 520-31 784 4M1630 1500c247-31 482-26 770 8"/>
+    </g>
+    <rect x="28" y="28" width="2344" height="1544" rx="3" fill="none" stroke="#d0b57c" stroke-width="2" opacity=".22"/>
+  </svg>

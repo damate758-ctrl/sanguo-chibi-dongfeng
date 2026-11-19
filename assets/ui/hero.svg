@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+<defs>
+  <linearGradient id="heroFill" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff2cf"/><stop offset=".5" stop-color="#d7b16d"/><stop offset="1" stop-color="#7d5222"/></linearGradient>
+  <linearGradient id="heroRed" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ef755a"/><stop offset="1" stop-color="#b8453d"/></linearGradient>
+  <filter id="heroDs"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#1b0c05" flood-opacity=".45"/></filter></defs><g filter="url(#heroDs)"><path d="M19 31c0-11 5-19 13-19s13 8 13 19v10H19z" fill="url(#heroFill)"/><path d="M22 25h20l-2 8H24z" fill="#526e6d"/><path d="M29 18h6l2 9H27z" fill="#b33f32"/><path d="M16 53c3-10 8-14 16-14s13 4 16 14" fill="#3d5f5b"/></g></svg>

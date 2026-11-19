@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1600" viewBox="0 0 2400 1600">
+<defs>
+  <filter id="mapwulinInk"><feTurbulence type="fractalNoise" baseFrequency=".012 .07" numOctaves="3" seed="7"/><feDisplacementMap in="SourceGraphic" scale="10"/></filter>
+  <filter id="mapwulinGrain"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="2" seed="12"/><feColorMatrix values="0 0 0 0 0.12 0 0 0 0 0.08 0 0 0 0 0.05 0 0 0 .12 0"/></filter>
+  <linearGradient id="mapwulinSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#101a25"/><stop offset=".5" stop-color="#314653"/><stop offset="1" stop-color="#6f6252"/></linearGradient>
+  <radialGradient id="mapwulinMoon" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#fff8dc"/><stop offset=".55" stop-color="#ead8a7"/><stop offset="1" stop-color="#e9d5a0" stop-opacity="0"/></radialGradient>
+  <linearGradient id="mapwulinWater" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#172d36"/><stop offset=".6" stop-color="#0c1c23"/><stop offset="1" stop-color="#071015"/></linearGradient>
+  <linearGradient id="mapwulinFire" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffce62"/><stop offset=".45" stop-color="#db512a"/><stop offset="1" stop-color="#7d130f" stop-opacity="0"/></linearGradient>
+  <linearGradient id="mapwulinLand" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#676253"/><stop offset=".5" stop-color="#3d443d"/><stop offset="1" stop-color="#1e2928"/></linearGradient></defs>
+    <rect width="2400" height="1600" fill="#2a1b17"/>
+    
+        <path d="M0 470c291-60 531-34 799 15 313 57 555 36 862-21 279-53 502-30 739 20v1116H0z" fill="#211718"/>
+        <path d="M0 660c213-52 408-47 613-5 291 59 524 48 803-14 289-64 536-45 755 10 84 22 156 23 229 5v286c-188 25-361 8-550-27-286-53-522-43-802 18-302 65-546 55-795 4-127-27-209-25-253 8z" fill="#3a211b"/>
+        <g transform="translate(330 890) scale(.92)">
+  <g transform="translate(0 0) scale(1.9)">
+    <path d="M-170 35c28 50 70 65 142 65 54 0 105-18 155-57l-25-11H-150z" fill="#171b1d"/>
+    <path d="M-157 1h274l-11 42H-145z" fill="#392b22"/>
+    <path d="M-142 43h250l-6 15H-135z" fill="#7b5736" opacity=".65"/>
+    <path d="M-5-226v237" stroke="#3b2b1f" stroke-width="11"/>
+    <path d="M0-210c63 33 86 76 105 134C58-94 27-102 0-89z" fill="#d7d0bc" opacity=".82"/>
+    <path d="M0-208c-54 35-78 78-94 132 43-34 69-42 94-30z" fill="#c6c0ae" opacity=".65"/>
+    <path d="M5-218l54 17-54 20z" fill="#7c241e"/>
+    <path d="M-160 27h298" stroke="#c3985b" stroke-width="3" opacity=".55"/>
+  </g></g>
+        <g transform="translate(940 1070) scale(.76)">
+  <g transform="translate(0 0) scale(1.6)">
+    <path d="M-170 35c28 50 70 65 142 65 54 0 105-18 155-57l-25-11H-150z" fill="#171b1d"/>
+    <path d="M-157 1h274l-11 42H-145z" fill="#392b22"/>
+    <path d="M-142 43h250l-6 15H-135z" fill="#7b5736" opacity=".65"/>
+    <path d="M-5-226v237" stroke="#3b2b1f" stroke-width="11"/>
+    <path d="M0-210c63 33 86 76 105 134C58-94 27-102 0-89z" fill="#d7d0bc" opacity=".82"/>
+    <path d="M0-208c-54 35-78 78-94 132 43-34 69-42 94-30z" fill="#c6c0ae" opacity=".65"/>
+    <path d="M5-218l54 17-54 20z" fill="#7c241e"/>
+    <path d="M-160 27h298" stroke="#c3985b" stroke-width="3" opacity=".55"/>
+  </g></g>
+        <g transform="translate(1460 890) scale(1.15)">
+  <g transform="translate(0 0) scale(2)">
+    <path d="M-170 35c28 50 70 65 142 65 54 0 105-18 155-57l-25-11H-150z" fill="#171b1d"/>
+    <path d="M-157 1h274l-11 42H-145z" fill="#392b22"/>
+    <path d="M-142 43h250l-6 15H-135z" fill="#7b5736" opacity=".65"/>
+    <path d="M-5-226v237" stroke="#3b2b1f" stroke-width="11"/>
+    <path d="M0-210c63 33 86 76 105 134C58-94 27-102 0-89z" fill="#d7d0bc" opacity=".82"/>
+    <path d="M0-208c-54 35-78 78-94 132 43-34 69-42 94-30z" fill="#c6c0ae" opacity=".65"/>
+    <path d="M5-218l54 17-54 20z" fill="#6c1d1b"/>
+    <path d="M-160 27h298" stroke="#c3985b" stroke-width="3" opacity=".55"/>
+  </g></g>
+        <g transform="translate(1940 1080) scale(.95)">
+  <g transform="translate(0 0) scale(1.55)">
+    <path d="M-170 35c28 50 70 65 142 65 54 0 105-18 155-57l-25-11H-150z" fill="#171b1d"/>
+    <path d="M-157 1h274l-11 42H-145z" fill="#392b22"/>
+    <path d="M-142 43h250l-6 15H-135z" fill="#7b5736" opacity=".65"/>
+    <path d="M-5-226v237" stroke="#3b2b1f" stroke-width="11"/>
+    <path d="M0-210c63 33 86 76 105 134C58-94 27-102 0-89z" fill="#d7d0bc" opacity=".82"/>
+    <path d="M0-208c-54 35-78 78-94 132 43-34 69-42 94-30z" fill="#c6c0ae" opacity=".65"/>
+    <path d="M5-218l54 17-54 20z" fill="#7c241e"/>
+    <path d="M-160 27h298" stroke="#c3985b" stroke-width="3" opacity=".55"/>
+  </g></g>
+        <g stroke="#e57e42" stroke-width="7" fill="none" opacity=".8"><path d="M280 990c113-43 218-34 311 27M930 1120c88-31 173-20 246 30M1430 990c114-47 213-36 297 28M1900 1120c77-28 147-19 207 25"/></g>
+        <g opacity=".52"><ellipse cx="620" cy="820" rx="405" ry="95" fill="url(#mapwulinFire)"/><ellipse cx="1530" cy="810" rx="535" ry="107" fill="url(#mapwulinFire)"/></g>
+        <g fill="#ffc463" opacity=".75"><circle cx="450" cy="790" r="3"/><circle cx="530" cy="735" r="2"/><circle cx="1430" cy="760" r="3.2"/><circle cx="1510" cy="700" r="2"/><circle cx="1600" cy="740" r="2.6"/></g>
+        <g transform="translate(1180 740)"><path d="M-118 115c45 37 236 40 300-3l-27-17H-97z" fill="#111719"/><path d="M-97 81h260l-9 34H-89z" fill="#614225"/><path d="M8-162v245" stroke="#59402a" stroke-width="10"/><path d="M3-154c55 27 78 66 84 121-35-30-56-37-86-23z" fill="#e1d5bd"/><path d="M-3-146l-82 13 82 30z" fill="#b54131"/></g>
+        <g fill="#d6b273"><circle cx="1110" cy="1260" r="5"/><circle cx="1200" cy="1300" r="4"/><circle cx="1300" cy="1250" r="5"/></g>
+    <rect width="2400" height="1600" fill="url(#mapwulinSky)" opacity=".12"/>
+    <rect width="2400" height="1600" filter="url(#mapwulinGrain)" opacity=".85"/>
+    <rect x="24" y="24" width="2352" height="1552" fill="none" stroke="#d8c28e" stroke-width="2" opacity=".2"/>
+  </svg>

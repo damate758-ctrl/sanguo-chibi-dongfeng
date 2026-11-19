@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+<defs>
+  <linearGradient id="windFill" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff2cf"/><stop offset=".5" stop-color="#d7b16d"/><stop offset="1" stop-color="#7d5222"/></linearGradient>
+  <linearGradient id="windRed" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ef755a"/><stop offset="1" stop-color="#b8453d"/></linearGradient>
+  <filter id="windDs"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#1b0c05" flood-opacity=".45"/></filter></defs><g filter="url(#windDs)"><path d="M8 22h29c10 0 12-8 5-10-5-1-8 2-7 6H31c0-8 8-13 15-10 10 4 7 18-5 18H8zM8 35h37c6 0 8 5 3 8-4 2-7-1-6-4H31c1 6 7 9 12 7 8-3 8-15-2-15H8z" fill="url(#windFill)"/><path d="M8 48h20c5 0 7 4 3 7-3 2-6 0-5-3H8z" fill="#9fc4c5"/></g></svg>

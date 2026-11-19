@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+<defs>
+  <linearGradient id="coinFill" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff2cf"/><stop offset=".5" stop-color="#d7b16d"/><stop offset="1" stop-color="#7d5222"/></linearGradient>
+  <linearGradient id="coinRed" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ef755a"/><stop offset="1" stop-color="#b8453d"/></linearGradient>
+  <filter id="coinDs"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#1b0c05" flood-opacity=".45"/></filter></defs><g filter="url(#coinDs)"><circle cx="32" cy="32" r="23" fill="url(#coinFill)" stroke="#7f5524" stroke-width="2"/><path d="M24 20h16v24H24z" fill="#7a4b19" opacity=".8"/><path d="M17 32c8-7 22-7 30 0" stroke="#fff1b4" stroke-width="2" fill="none" opacity=".55"/></g></svg>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="900" viewBox="0 0 600 900">
+<defs>
+  <linearGradient id="gnSkin" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#c38b6c"/><stop offset=".62" stop-color="#c38b6c"/><stop offset="1" stop-color="#744a3d"/>
+  </linearGradient>
+  <linearGradient id="gnArmor" x1=".1" y1="0" x2=".9" y2="1">
+    <stop offset="0" stop-color="#aec3b7"/><stop offset=".35" stop-color="#4e7473"/><stop offset=".75" stop-color="#17383a"/><stop offset="1" stop-color="#10191b"/>
+  </linearGradient>
+  <linearGradient id="gnRobe" x1=".1" y1="0" x2=".9" y2="1">
+    <stop offset="0" stop-color="#2d6d6b"/><stop offset=".5" stop-color="#173e42"/><stop offset="1" stop-color="#071e23"/>
+  </linearGradient>
+  <linearGradient id="gnCape" x1=".1" y1="0" x2=".8" y2="1">
+    <stop offset="0" stop-color="#3a8e86"/><stop offset=".4" stop-color="#17565a"/><stop offset=".8" stop-color="#071e23"/><stop offset="1" stop-color="#130608"/>
+  </linearGradient>
+  <linearGradient id="gnGold" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#f7e5bb"/><stop offset=".35" stop-color="#d2aa61"/><stop offset=".76" stop-color="#7b5729"/><stop offset="1" stop-color="#402a13"/>
+  </linearGradient>
+  <filter id="gnShadow" x="-30%" y="-20%" width="160%" height="150%">
+    <feDropShadow dx="0" dy="8" stdDeviation="7" flood-color="#050304" flood-opacity=".32"/>
+  </filter></defs>
+  <g filter="url(#gnShadow)">
+    <ellipse cx="296" cy="864" rx="199" ry="24" fill="#090506" opacity=".55"/>
+    
+    <g class="figure">
+      <path d="M224 306C126 348 81 489 45 683c-20 108-24 174-16 228 55-87 101-163 134-251 10 99 16 186 31 269 38-99 36-204 10-306 42 85 91 145 147 179-24-129-47-233-81-328z" fill="url(#gnCape)"/>
+    <path d="M198 355c-52 115-77 259-83 407" fill="none" stroke="#c63d2f" stroke-width="2" opacity=".3"/>
+    <path d="M109 443c-27 96-38 201-33 310" fill="none" stroke="#060708" stroke-width="5" opacity=".32"/>
+      <g class="legs">
+        <path d="M221 574c-7 87-18 181-45 282 35 15 67 14 100 1l4-274z" fill="#071e23"/>
+        <path d="M307 580l18 277c34 10 67 6 97-9-16-99-20-195-13-286z" fill="#173e42"/>
+        <path d="M176 844c40 17 78 19 118 4l8 40c-48 20-91 19-133 2z" fill="#111618"/>
+        <path d="M325 849c30 5 59 1 87-11l12 42c-34 19-66 21-101 13z" fill="#141719"/>
+        <path d="M203 698c27 10 55 12 83 4M321 706c23 6 47 4 70-3" fill="none" stroke="#d2aa61" stroke-width="2" opacity=".24"/>
+      </g>
+      <g class="robe">
+        <path d="M209 536c-42 81-67 178-80 292 58 25 116 22 167-2l5-267z" fill="url(#gnRobe)"/>
+        <path d="M301 554c34 82 55 174 67 267-56 30-111 31-165 9l17-267z" fill="#173e42"/>
+        <path d="M278 562c-3 98-10 190-28 281M330 571c11 94 21 184 25 271" fill="none" stroke="#d2aa61" stroke-width="1.5" opacity=".26"/>
+        <path d="M183 802c49 18 99 18 145 3M343 809c21 1 42-3 64-12" fill="none" stroke="#d2aa61" stroke-width="2" opacity=".25"/>
+        <path d="M212 786l-7 52M247 796l-3 43M290 796l6 46M345 800l12 39" stroke="#d2aa61" stroke-width="1.4" opacity=".3"/>
+      </g>
+      <g class="torso">
+        <path d="M235 294c-36 20-55 53-62 98l21 166c40 25 87 35 142 31 39-3 66-14 85-31l18-166c-11-49-34-82-68-100-47-20-92-20-136 2z" fill="#071e23"/>
+        <path d="M223 302l-37 42 9 87 61 22 31-139z" fill="url(#gnArmor)"/>
+        <path d="M344 310l36 39-2 88-68 18-9-145z" fill="url(#gnArmor)"/>
+        <path d="M237 366c41-16 83-16 126 1l-10 163c-35 18-70 21-99 11l-20-175z" fill="url(#gnArmor)"/>
+        <path d="M231 369c42-13 90-11 136 3M232 407c41-11 86-9 130 3M233 445c39-9 80-7 122 4M235 483c34-7 72-5 108 4" fill="none" stroke="#17383a" stroke-width="3" opacity=".7"/>
+        <path d="M256 390c-2 49 1 96 8 139M296 382c1 51 2 100 7 150M336 390c1 46 1 91 2 135" fill="none" stroke="#e9e5d4" stroke-width="1.4" opacity=".28"/>
+        <path d="M256 331c32-15 66-15 98-1l-9 35c-29-11-56-10-82 2z" fill="#d2aa61" opacity=".32"/>
+        <path d="M217 484c43 19 88 26 135 23 42-2 75-10 98-22l-6 68c-44 24-103 31-158 16l-61-24z" fill="#071e23"/>
+        <path d="M226 520c58 23 127 20 190-5" fill="none" stroke="url(#gnGold)" stroke-width="9"/>
+        <path d="M285 544l8 34 16-9 9 37 16-36 15 15 2-44z" fill="#c63d2f"/>
+        <circle cx="364" cy="512" r="12" fill="url(#gnGold)"/>
+      </g>
+      <g class="shoulders">
+        <path d="M226 300c-42-12-74 2-97 38l16 77 69-17 27-60z" fill="url(#gnArmor)"/>
+        <path d="M352 300c36-12 72-2 96 31l-10 77-69-12-24-61z" fill="url(#gnArmor)"/>
+        <path d="M136 341c21-27 50-37 87-29M358 310c35-8 66 4 88 31" fill="none" stroke="#e9e3cf" stroke-width="2" opacity=".36"/>
+        <path d="M143 371c18 9 36 15 53 16M395 378c-16 6-31 10-47 11" fill="none" stroke="#c63d2f" stroke-width="5"/>
+        <path d="M205 311c-18 26-29 56-35 88M371 314c18 24 28 52 33 86" fill="none" stroke="#17383a" stroke-width="4" opacity=".55"/>
+      </g>
+      <g class="arms">
+        <path d="M153 360c-29 46-36 93-26 140 9 42 17 79 10 106 17 17 44 23 68 12 8-39-3-82-15-132-8-39-5-76 12-106z" fill="#173e42"/>
+        <path d="M148 501c20 18 40 35 47 55-14 19-38 25-58 13-13-25-8-50 11-68z" fill="url(#gnArmor)"/>
+        <path d="M168 552l10 70 25-2 7-72z" fill="#c38b6c"/>
+        <path d="M155 619c19-8 38-7 53 2l-2 41c-19 12-37 11-53 0z" fill="#744a3d"/>
+        <path d="M398 360c35 40 49 86 38 134-8 39-31 70-60 91l-30-34c23-23 36-48 39-76 4-38-7-73-32-101z" fill="#173e42"/>
+        <path d="M403 359c25-4 52 9 72 36l-23 60-56-19z" fill="url(#gnArmor)"/>
+        <path d="M443 410c20 25 18 54 1 79-18 9-36 4-50-11l-4-46z" fill="url(#gnArmor)"/>
+        <path d="M426 489l-15 87 30 12 25-90z" fill="#c38b6c"/>
+        <path d="M396 572c19-9 40-5 53 10l-9 42c-18 8-35 6-50-5z" fill="#744a3d"/>
+      </g>
+      <g class="neck">
+        <path d="M259 258l8 60c13 9 30 10 46 2l9-64z" fill="url(#gnSkin)"/>
+        <path d="M264 276c16 8 33 8 49-1" fill="none" stroke="#704337" stroke-width="2" opacity=".55"/>
+      </g>
+      <g class="head">
+        <path d="M222 143c10-44 39-72 78-72 44 0 77 31 80 80-54-19-105-21-158-8z" fill="#171d20"/>
+    <path d="M219 130c48-11 104-8 164 9l-5 27c-55-17-106-20-159-9z" fill="#c63d2f"/>
+    <path d="M378 140c36 7 58 27 66 58-22-18-43-26-64-24z" fill="#c63d2f"/>
+    <path d="M381 143c29 12 47 28 55 48" fill="none" stroke="#f0d29b" stroke-width="2" opacity=".5"/>
+        <path d="M231 141c-15 30-18 73-5 111 13 38 42 62 80 62 39 0 67-26 78-65 11-41 5-84-13-112-20-30-52-43-86-39-23 3-42 17-54 43z" fill="url(#gnSkin)"/>
+        <path d="M219 158c-32-44-2-96 55-96 55 0 95 42 74 99-13-51-47-72-69-73-24 2-45 18-60 70z" fill="#171d20"/>
+        <path d="M226 158c-9 74 3 139 54 163 33-18 61-56 63-110 1-32-4-59-15-80-13 37-30 54-54 55-20 1-35-9-48-28z" fill="url(#gnSkin)"/>
+        <path d="M251 180c-1 14-2 28-5 41l15 6M306 181c-7 14-10 31-8 48l-14 7" fill="none" stroke="#89594a" stroke-width="2.2" stroke-linecap="round"/>
+        <path d="M251 179c13-5 25-2 34 7-12 3-23 2-34-7zM289 187c12-9 24-8 34-1-10 8-21 10-34 1z" fill="#e9dbc6"/>
+        <path d="M251 188c8-4 16-3 24 2M289 206c8-4 16-3 23 3" fill="none" stroke="#2b211c" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="266" cy="192" r="2.8" fill="#4d392d"/><circle cx="299" cy="209" r="2.8" fill="#4d392d"/>
+        <circle cx="267" cy="191.4" r=".9" fill="#f1e3c7"/><circle cx="300" cy="208.4" r=".9" fill="#f1e3c7"/>
+        <path d="M246 179c9-8 18-11 27-10M285 177c12-6 23-5 33 3" fill="none" stroke="#4f342b" stroke-width="2.2" stroke-linecap="round"/>
+        <path d="M274 217c4 2 8 2 12 0" fill="none" stroke="#77483a" stroke-width="1.5"/>
+        <path d="M262 243c10 4 20 4 30 0" fill="none" stroke="#8b3a34" stroke-width="2.4" stroke-linecap="round"/>
+        <path d="M215 202c-10 32-6 74 9 103M377 201c10 33 6 73-8 102" fill="none" stroke="#171d20" stroke-width="10" opacity=".72"/>
+        
+      </g>
+      <path d="M221 183c-39 104-33 211-2 301 9 25 28 28 38 4-17-70-16-148 3-226z" fill="#171d20"/>
+    <path d="M379 184c36 92 34 184 10 267-8 26-29 24-36-2 12-65 10-135-8-202z" fill="#171d20"/>
+      <g class="front-cape"><path d="M232 298c-38 39-45 112-31 209 34-21 63-56 81-101-15-44-21-82-12-116z" fill="url(#gnCape)" opacity=".75"/></g>
+      <path d="M425 510c30 17 42 33 35 47-9 16-34 12-45-7" fill="none" stroke="#d2aa61" stroke-width="4"/>
+    <path d="M449 548c12 1 20 7 21 17" fill="none" stroke="#8a2b20" stroke-width="3"/>
+    <circle cx="472" cy="567" r="9" fill="url(#gnGold)"/><circle cx="477" cy="590" r="7" fill="url(#gnGold)"/><circle cx="480" cy="611" r="5" fill="url(#gnGold)"/><g class="weapon" transform="rotate(4 480 540)">
+      <path d="M470 405l18-10 40 355-27 12z" fill="#1d2729"/>
+      <path d="M477 407l8-4 29 340-12 9z" fill="#aebbb5" opacity=".5"/>
+      <path d="M447 398l57-25 15 33-57 25z" fill="url(#gnGold)"/>
+      <path d="M476 373c13-25 31-36 56-34-17 10-27 23-30 39z" fill="#c63d2f"/>
+      <path d="M505 378c14-11 27-12 41-4" fill="none" stroke="#d2aa61" stroke-width="4"/>
+    </g>
+      <g class="rim">
+        <path d="M207 177c6-41 48-65 87-51 29 11 45 39 43 71" fill="none" stroke="#d8dccd" stroke-width="2" opacity=".32"/>
+        <path d="M171 342c21-35 55-51 94-49" fill="none" stroke="#e7dfcd" stroke-width="2" opacity=".24"/>
+        <path d="M404 324c27 1 52 17 68 46" fill="none" stroke="#e7dfcd" stroke-width="2" opacity=".2"/>
+      </g>
+    </g>
+  </g></svg>
