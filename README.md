@@ -399,17 +399,14 @@ const shift = walk
 项目是纯静态站点，但 **不能以 `file://` 直接打开 `index.html`**：ES Module 与图片加载会被浏览器的同源策略拦截。
 
 ```powershell
-# 方式一：仓库自带的零依赖静态服务器
-node serve.mjs
+# 方式一：任意静态服务器
+npx serve .
 
 # 方式二：Python
 python -m http.server 5180
-
-# 方式三：npx
-npx serve .
 ```
 
-然后访问 `http://127.0.0.1:5180/`。Windows 下也可以双击 `启动游戏.bat`（内部同样启动静态服务器）。
+然后访问 `http://127.0.0.1:5180/`。本地交付包额外提供 `serve.mjs` 与 `启动游戏.bat`（内部同样启动静态服务器）；GitHub 仓库仅包含发布产物，使用上面的通用方式即可。
 
 ### 调试参数
 
